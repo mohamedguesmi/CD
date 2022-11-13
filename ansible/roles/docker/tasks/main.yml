@@ -3,7 +3,7 @@
 # tasks file for docker
 - name: create image docker
   docker_image:
-    name: zeineb12345/devops:latest
+    name: medguemi/devops:latest
     build:
       path: /var/lib/jenkins/workspace/CD
       pull: no
